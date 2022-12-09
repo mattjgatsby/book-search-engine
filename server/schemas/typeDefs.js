@@ -9,6 +9,7 @@ type User {
     bookCount: Int
     savedBooks: [Book]
 }
+
 type Book {
     _id: ID
     authors: [String]
