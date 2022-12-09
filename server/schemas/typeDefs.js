@@ -6,8 +6,9 @@ type User {
     username: String
     email: String
     password: String
+    bookCount: Int
     savedBooks: [Book]
-
+}
 type Book {
     _id: ID
     authors: [String]
